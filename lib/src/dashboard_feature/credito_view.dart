@@ -10,10 +10,9 @@ class CreditoView extends StatefulWidget {
 }
 
 class _CreditoViewState extends State<CreditoView> {
-  
-
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     var size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
@@ -40,7 +39,7 @@ class _CreditoViewState extends State<CreditoView> {
                     size: 32,
                     color: primary,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Recarga",
                     style: TextStyle(fontSize: 22),
                   ),
@@ -59,7 +58,7 @@ class _CreditoViewState extends State<CreditoView> {
                     size: 32,
                     color: primary,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Chamadas e Internet",
                     style: TextStyle(fontSize: 22),
                   ),

@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mpesa/src/settings/navy_state.dart';
 import 'package:provider/provider.dart';
-
 import '../constant/constants.dart';
-import 'credito_view.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -239,7 +237,7 @@ class _HomeViewState extends State<HomeView> {
           const Positioned(
               top: 460,
               child: Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding: EdgeInsets.all(20.0),
                 child: Text("Descobrir",
                     style: TextStyle(
                       fontSize: 18,

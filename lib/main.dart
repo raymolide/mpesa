@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mpesa/src/login_feature/login_view.dart';
 import 'package:mpesa/src/settings/navy_state.dart';
 import 'package:provider/provider.dart';
 

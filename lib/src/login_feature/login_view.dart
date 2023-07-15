@@ -75,7 +75,7 @@ class _LoginViewState extends State<LoginView> {
                                     fontStyle: FontStyle.normal,
                                     fontWeight: FontWeight.bold),
                                 decoration: InputDecoration(
-                                  contentPadding: EdgeInsets.all(10),
+                                  contentPadding: const EdgeInsets.all(10),
                                   focusedBorder: const OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: Colors.grey,

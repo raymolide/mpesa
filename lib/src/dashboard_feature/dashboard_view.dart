@@ -31,6 +31,7 @@ class _DashboardViewState extends State<DashboardView> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     var size = MediaQuery.of(context).size;
     return Scaffold(
       bottomNavigationBar: BottomNavyBar(
@@ -55,14 +56,14 @@ class _DashboardViewState extends State<DashboardView> {
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.menu),
+            icon: const Icon(Icons.credit_score),
             title: const Text('Crédito'),
             activeColor: primary,
             inactiveColor: bgGrey,
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.list_alt_sharp),
+            icon: const Icon(Icons.compare_arrows_sharp),
             title: const Text(
               'Movimentar',
             ),
@@ -71,14 +72,14 @@ class _DashboardViewState extends State<DashboardView> {
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.shopping_cart),
+            icon: const Icon(Icons.home_repair_service),
             title: const Text('Serviços'),
             activeColor: primary,
             inactiveColor: bgGrey,
             textAlign: TextAlign.center,
           ),
           BottomNavyBarItem(
-            icon: const Icon(Icons.person),
+            icon: const Icon(Icons.miscellaneous_services_outlined),
             title: const Text('Definições'),
             activeColor: primary,
             inactiveColor: bgGrey,
