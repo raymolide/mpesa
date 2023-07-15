@@ -236,15 +236,15 @@ class _HomeViewState extends State<HomeView> {
               ),
             ),
           ),
-          Positioned(
+          const Positioned(
               top: 460,
               child: Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Text("Descobrir",
                     style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w900,
-                        color: Theme.of(context).primaryColor)),
+                      fontSize: 18,
+                      fontWeight: FontWeight.w900,
+                    )),
               )),
           Positioned(
             top: 500,
