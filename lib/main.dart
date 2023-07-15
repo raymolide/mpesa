@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mpesa/src/login_feature/login_view.dart';
+import 'package:mpesa/src/settings/navy_state.dart';
+import 'package:provider/provider.dart';
 
 import 'src/app.dart';
 import 'src/settings/settings_controller.dart';
@@ -17,7 +19,10 @@ void main() async {
   // Run the app and pass in the SettingsController. The app listens to the
   // SettingsController for changes, then passes it further down to the
   // SettingsView.
-  runApp(MyApp(settingsController: settingsController));
-
-   
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => NavyState(),
+      child: MyApp(settingsController: settingsController),
+    ),
+  );
 }
